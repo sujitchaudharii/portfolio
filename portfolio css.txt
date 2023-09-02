@@ -1,0 +1,564 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: "Kanit", sans-serif;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+}
+
+h4 {
+    font-family: "Kanit", sans-serif;
+}
+
+h5 {
+    font-family: "Kanit", sans-serif;
+}
+
+h6 {
+    font-family: "Kanit", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+li {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+}
+
+table {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    margin: 10px 0 0px 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-transform: uppercase;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover {
+    color: #7f00ff;
+}
+
+#pad {
+    padding-left: 10px;
+    color: #000;
+}
+
+#pad::first-letter {
+    color: #7f00ff;
+    font-size: xx-large;
+}
+
+.name {
+    margin-left: 6%;
+    margin-top: 20%;
+}
+
+.name #download {
+    background-color: black;
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+#download:hover {
+    background-color: #7f00ff;
+}
+
+#sur-color {
+    color: #7f00ff;
+}
+
+div>strong>p>span {
+    border-left: 2px dotted black;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.photo {
+    width: 40%;
+    bottom: 0;
+    right: 100px;
+    position: absolute;
+}
+
+.swapnil {
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-1%);
+    transition: bottom 2s, right 2s;
+}
+
+.shape {
+    position: absolute;
+    mix-blend-mode: color-burn;
+    transform: translateX(-1%);
+    transition: bottom 1.5s, left 1.5s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .swapnil {
+    right: 40px;
+}
+
+#top-border {
+    border-top: 2px solid #7f00ff;
+}
+
+#margin {
+    margin-top: 10px;
+}
+
+.about {
+    margin-left: 6%;
+    margin-top: 300px;
+    padding-top: 50px;
+}
+
+.about h1 {
+    border-left: 4px solid white;
+    padding-left: 10px;
+    color: white;
+}
+
+#abo {
+    background-color: #7f00ff;
+}
+
+section>div>p {
+    color: white;
+    padding: 10px 20px 50px 10px;
+}
+
+.projects {
+    margin-left: 6%;
+    margin-top: 30px;
+}
+
+#margin-bottom {
+    margin-bottom: 10px;
+}
+
+#education {
+    color: white;
+    border-left: 4px solid white;
+}
+
+th {
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    margin: 10px 0 0px 0;
+    padding: 20px;
+}
+
+td {
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    margin: 10px 0 0px 0;
+    padding: 20px;
+}
+
+#table {
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+#contact {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.list {
+    margin-top: 40px;
+    color: white;
+}
+
+.linkcolor {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#social {
+    margin-top: 10px;
+}
+
+.big-icon {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    margin-top: -10px;
+}
+
+.fa-github {
+    transition: 0.3s;
+}
+
+.fa-github:hover {
+    color: #000;
+}
+
+.fa-linkedin {
+    transition: 0.3s;
+}
+
+.fa-linkedin:hover {
+    color: #000;
+}
+
+.fa-instagram {
+    transition: 0.3s-;
+}
+
+.fa-instagram:hover {
+    color: #000;
+}
+
+#big-name {
+    font-size: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.row h1 {
+    border-left: 4px solid #000;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#small-li li {
+    font-size: medium;
+    margin-top: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.big-p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#bg-voilet {
+    background-color: #7f00ff;
+    margin-top: 180px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#bg-voilet .projects {
+    display: flex;
+}
+
+#bg-voilet .projects .cards {
+    height: 500px;
+    justify-content: space-evenly;
+    margin-right: 6%;
+    padding-top: 25px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#bg-voilet .projects .cards .card-text {
+    text-transform: capitalize;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+#expertis-bottom {
+    margin-bottom: -200px;
+}
+
+#tool-color {
+    color: #7f00ff;
+}
+
+.poly {
+    margin-left: 16px;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.virat {
+    margin-left: 8px;
+}
+
+.project-h1 {
+    position: absolute;
+    margin-left: 6%;
+    color: white;
+    border-left: 4px solid white;
+    padding-left: 10px;
+}
+
+.project-h2 {
+    margin-left: 6%;
+    color: white;
+    border-left: 4px solid white;
+    padding-left: 10px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+#graphic-margin {
+    margin-top: 70px;
+}
+
+.cards:hover {
+    box-shadow: 10px 10px 20px rgb(68, 67, 67);
+}
+
+.list-projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.list-projects .icon-center {
+    position: absolute;
+}
+
+.list-projects #flip {
+    width: 100px;
+    background-color: #7f00ff;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 2px 2px 10px rgb(43, 43, 43);
+}
+
+.containe {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+.containe #highlight {
+    color: #000;
+    margin-top: 50px;
+    border-left: 4px solid #000;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-p {
+    margin-left: 1%;
+    font-size: large;
+}
+
+#styele-details {
+    margin-left: 1%;
+    padding-top: 20px;
+    line-height: 50px;
+}
+
+#styele-details #button-resume {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#styele-details #button-resume:hover {
+    background-color: #7f00ff;
+}
+
+#styele-details .fa-arrow-up {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
+.final-style {
+    height: 500px;
+    background-color: #000;
+}
+
+#map {
+    float: right;
+    margin-right: 6%;
+    margin-top: -210px;
+    box-shadow: 5px 5px 20px rgb(69, 68, 68);
+}
+
+#design-tools {
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#final-p {
+    color: white;
+    padding-top: 10px;
+    margin-right: 6%;
+    margin-left: 6%;
+    text-align: center;
+}
+
+.rights {
+    background-color: #000;
+    height: 40px;
+}
+
+.rights #right {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    body {
+        padding: 10px;
+    }
+    h1+img {
+        height: 250px;
+    }
+    .photo {
+        width: 50%;
+        right: 10px;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 100px;
+        margin-bottom: -100px;
+    }
+    .shape {
+        display: none;
+    }
+    .swapnil {
+        display: none;
+    }
+    .projects {
+        flex-direction: column;
+    }
+    #map {
+        visibility: hidden;
+        display: none;
+    }
+    #styele-details {
+        line-height: 35px;
+    }
+    th,
+    td {
+        padding: 8px;
+        font-size: medium;
+    }
+    #contact {
+        position: relative;
+        margin-left: 1px;
+        padding-bottom: 10px;
+    }
+    #social {
+        display: inline;
+        margin-bottom: 50px;
+    }
+    nav {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .container {
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+}
+
+/*# sourceMappingURL=index.css.map */

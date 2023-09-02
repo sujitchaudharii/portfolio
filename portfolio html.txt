@@ -1,0 +1,439 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Sujit Chaudhari</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/gfgfg.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/gfgfg.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/gfgfg.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/gfgfg.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/gfgfg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/gfgfg.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <!-- Goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="sujit.css">
+
+
+
+    <script src="https://kit.fontawesome.com/474d29ccad.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* this for background color change */
+
+        .btn {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: solid grey 2px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #white {
+            background-color: #C0DFD9;
+        }
+
+        #aqua {
+            background-color: #E9ECE6;
+        }
+
+        #voilet {
+            background-color: #FFB5E3;
+        }
+
+        #color-switcher {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header id="bg-color">
+
+        <nav>
+
+            <h1 id="pad">Portfolio..</h1>
+            <!-- background color change tag -->
+            <div id="color-switcher">
+                <span class="btn" id="white" onclick="changeBG('#C0DFD9')"></span>
+                <span class="btn" id="aqua" onclick="changeBG('#E9ECE6')"></span>
+                <span class="btn" id="voilet" onclick="changeBG('#FFB5E3')"></span>
+
+            </div>
+            <ul>
+                <li><a href="#" id="top-border">Home</a></li>
+                <li><a href="#local">About</a></li>
+                <li><a href="#pro-link">Projects</a></li>
+                <li><a href="#local">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="name">
+            <div id="margin-bottom">
+                <h1 id="big-name">I'm Sujit  <span id="sur-color">Chaudhari</span></h1>
+            </div>
+            <strong><p>FRONTEND DEVELOPER <span> GRAPHIC DESIGNER</span></p></strong>
+
+
+            <p id="margin">Looking for a career opportunity at an organization where I can give best <br>of my designing, technical skills and learn new things.</p>
+
+            <a href="Swapnil Rajput.pdf" download="pdf" id="download" id="hover">DOWNLOAD RESUME</a>
+
+
+            <div class="images">
+
+                <img src="gfgfg.png" alt="" class="swapnil photo">
+
+                <img src="0268d7deb333107d0b6f9e5f724f5de8.jpg" alt="" class="shape photo">
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <section id="bg-voilet">
+
+
+        <h1 class="project-h1" id="pro-link">UI PROJECTS</h1>
+        <div class="projects">
+
+
+            <div class="cards">
+                <h1>FLIPKART CLONE</h1>
+
+                <p class="card-text">In this clone i created full Header to footer Home page with used of multiple Tools. also this project hosted on github.
+                </p>
+
+                <h3>TOOLS</h3>
+                <ul class="list-projects">
+                    <div class="icon-center">
+                        <div> <i class="fa-solid fa-star"></i>
+                            <li>HTML5</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>CSS3</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>BOOTSTRAP</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>PHOTOSHOP</li>
+                        </div>
+
+                        <a href='/flip/flip' target='_blank'> <button id="flip" value="visit">Visit</button></a>
+                    </div>
+                </ul>
+
+
+            </div>
+            <div class="cards">
+                <h1>LIFE TIMER
+                </h1>
+                <p class="card-text">This website can be used as calculate Our age with Hour and Seconds with using of JavaScript. also this project hosted on github.
+
+                </p>
+
+                <h3>TOOLS</h3>
+                <ul class="list-projects">
+                    <div class="icon-center">
+                        <div> <i class="fa-solid fa-star"></i>
+                            <li>HTML5</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>CSS3</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>JAVASCRIPT</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>PHOTOSHOP</li>
+                        </div>
+
+                        <a href="/life timer/LifeTimer.html" target="_blank"> <button id="flip" value="visit">Visit</button></a>
+                    </div>
+                </ul>
+
+
+            </div>
+
+            <div class="cards">
+
+                <h1>PIZZA SHOP</h1>
+                <p class="card-text">this website i craete a pizza shop UI with login form with used of frontend tools.also this project hosted on github.
+                </p>
+
+                <h3>TOOLS</h3>
+                <ul class="list-projects">
+                    <div class="icon-center">
+                        <div> <i class="fa-solid fa-star"></i>
+                            <li>HTML5</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>CSS3</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>CORELDRAW</li>
+                        </div>
+                        <div><i class="fa-solid fa-star"></i>
+                            <li>PHOTOSHOP</li>
+                        </div>
+
+                        <a href="pizza site/pizza.html" target="_blank"> <button id="flip" value="visit">Visit</button></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div id="graphic-margin">
+            <h1 class="project-h2">GHRAPIC PROJECTS</h1>
+
+            <div class="projects">
+
+
+                <div class="cards">
+                    <h1>VECTOR ART</h1>
+
+                    <img src="gfgfg.png" alt="" height="300px">
+
+                    <p class="card-text">In this <strong> Vector Art </strong> i used line tool for tracing the part of face after that i used the color picker tool to pickup the colors from original image.
+                    </p>
+
+                    <h3>TOOLS : <span id="tool-color"> CORELDRAW </span> </h3>
+
+
+
+                </div>
+                <div class="cards">
+                    <h1>POLYGON PORTRAIT</h1>
+
+                    <img src="269645023_758933292167026_352896821555634864_n.jpg" alt="" height="300px" class="img-center poly">
+
+                    <p class="card-text">In this <strong>Polygon Portrait </strong> i draw the Polygon shapes on original image after that i fill the original colors form image with help or color-picker
+                    </p>
+
+                    <h3>TOOLS : <span id="tool-color"> ILLUSTRATOR </span> </h3>
+
+
+
+                </div>
+
+                <div class="cards">
+                    <h1>DEGITAL PAINTING</h1>
+
+                    <img src="IMG_20220721_173309_178.jpg" alt="" height="300px" class="virat">
+
+                    <p class="card-text">In this <strong> Digital painting </strong> i used the spcial brushes that used for digital painting and and give some colors to diffrent deffrent parts.
+                    </p>
+
+                    <h3>TOOLS : <span id="tool-color"> PHOTOSHOP </span> </h3>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="expertis-bottom">
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <h1>EXPERTISE</h1>
+                    <p class="big-p">Graphic,Web Pages, Realstic Painting, Logos.</p>
+
+                    <ul id="small-li">
+                        <p>
+                            <li>Good knowlodge Of Adobe Illustrature, Adobe Photoshop</li>
+                        </p>
+                        <p>
+                            <li>Expert in CorelDraw</li>
+                        </p>
+                        <p>
+                            <li>Good at Converting PSD to HTML</li>
+                        </p>
+                        <p>
+                            <li>Expert at HTML5, CSS3, bootstrap, Sass</li>
+                        </p>
+                        <p>
+                            <li>Good Understanding of Javascript</li>
+                        </p>
+
+
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h1>TOOLS AND TECHNOLOGIS</h1>
+
+                    <p class="big-p">Not only knowing the tools but using them efficiently.</p>
+
+                    <ul id="small-li">
+                        <p>
+                            <li>Adobe Illustrator, Adobe Photoshop</li>
+                        </p>
+                        <p>
+                            <li>CorelDraw</li>
+                        </p>
+                        <p>
+                            <li>HTML5, CSS3, bootstrap</li>
+                        </p>
+                        <p>
+                            <li>Sass,Less</li>
+                        </p>
+                        <p>
+                            <li>Javascript, C</li>
+                        </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="abo">
+
+        <div class="about">
+            <h1 id="local">ABOUT</h1>
+            <p>
+                Intend to build a career with leading corporate of hi tech environment with committed & dedicated people, which will help me to explore myself fully and <br>realize my potential. willing to work as a key player in challenging & creative
+                environment. Fast learner and Positive team player.
+            </p>
+
+
+
+            <span id="table">
+                <h1 id="education">EDUCATION</h1>
+            <table>
+
+                <tr><th>Course</th><th>College/School</th><th>Year</th><th>Percent</th></tr>
+                <tr><td>B.tech</td><td>North Maharashtra</td><td>2021</td><td>84.89%</td></tr>
+                <tr><td>HSC</td><td>Handedeshmukh College ,ale</td><td>2018</td><td>60%</td></tr>
+                <tr><td>SSC</td><td>SMV Vidhyalaya</td><td>2016</td><td>75.07%</td></tr>
+            </table>
+                    
+            </span>
+
+            <div id="contact">
+                <h1>CONTACT</h1>
+
+                <div class="list">
+                    <i class="fa-solid fa-phone"></i><a href="tel:9595312293" class="linkcolor">+91 9595312293
+                    </a>
+                </div>
+
+                <div class="list">
+                    <i class="fa-solid fa-envelope"></i><a href="mailto:sujitchaudhari01@gmail.com" class="linkcolor">sujitchaudhari01@gmail.com</a>
+                </div>
+
+                <div class="list">
+                    <i class="fa-solid fa-location-dot"></i> <span style="font-family: 'Open Sans', sans-serif;" class="linkcolor">204, Karve Nagar, Pune 411052 </span>
+                </div>
+
+                <div id="social">
+                    <span class="list big-icon">
+                        <a href="https://github.com/devSRajput/Flipkart-clone" class="list"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/swapnil-rajput-368662262/" class="list"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/swapnil_rajput_sr/" class="list"><i class="fa-brands fa-instagram"></i></a>
+                    </span>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <div class="containe">
+
+        <h2 id="highlight">PERSONAL DETAILS</h2>
+        <p class="margin-p">Addicted to Design.</p>
+        <div id="styele-details">
+            <p><strong> Hobbies:</strong> Playing Cards, Editing Photos, Cooking.</p>
+            <p><strong> Date of Birth:</strong> 08-09-1998</p>
+            <p><strong> Permanant Address:</strong>A/p.Umbraj no 2 Tal-junnar Dist-pune</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.409777401418!2d75.58643721473122!3d21.016283686005124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90f4e7c380eed%3A0x504ab8a3421ccc80!2sShravan%20nagar!5e0!3m2!1sen!2sin!4v1674900674092!5m2!1sen!2sin"
+                width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+            <p><strong> Language Known:</strong> English, Hindi, Marathi.</p>
+            <p>I hereby declare that the above written particulars are true to the best of my knowledge and belief.</p>
+
+
+            <a href="Swapnil Rajput.pdf" download="pdf" id="button-resume" onclick="fun()">DOWNLOAD RESUME</a>
+
+            <a href="#top-border" id="hove-arrow"><i class="fa-solid fa-arrow-up"></i></a>
+
+        </div>
+    </div>
+
+    <div class="rights">
+        <p id="right">Copyright 2023 <i class="fa-regular fa-copyright"></i> All Rights Reserved</p>
+    </div>
+
+
+
+
+
+</body>
+
+<script>
+    function changeBG(color) {
+        document.body.style.backgroundColor = color;
+        let txt = document.getElementsByClassName("card-text");
+
+        //for text
+        if (color == "#000000") {
+            for (let elm of txt) {
+                elm.style.color = "white";
+            }
+        }
+        // else{
+        //     for(let elm of txt){
+        //         elm.style.color = "black";
+        //     }
+    }
+</script>
+
+</html>
